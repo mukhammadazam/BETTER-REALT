@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+header {
+  background-image: url(../../imges/begroundd.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+nav {
+  background-image: url(../../imges/navigatsiyabgroung.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 76px;
+}
+.nav__list--item a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.nav .nav__leni {
+  display: block;
+}
+.nav .nav__leni .burger1 {
+  display: block;
+  width: 23px;
+  height: 1px;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-bottom: 7px;
+}
+.nav .nav__leni .burger2 {
+  display: block;
+  width: 23px;
+  height: 1px;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-bottom: 7px;
+}
+.nav .nav__leni .burger3 {
+  display: block;
+  width: 23px;
+  height: 1px;
+  border-radius: 2px;
+  background-color: #fff;
+}/*# sourceMappingURL=main.css.map */

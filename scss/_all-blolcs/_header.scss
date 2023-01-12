@@ -1,0 +1,49 @@
+@import '../../mixin';
+header {
+    @include BG (url(../../imges/begroundd.png), no-repeat, 100%, center);
+}
+
+nav {
+    @include BG (url(../../imges/navigatsiyabgroung.png), no-repeat, 100%, center);
+}
+
+.nav {
+    @include flexfunksiya (row, center, space-between, wrap);
+    &__list {
+        @include flexfunksiya (row, center, center, wrap);
+        gap: 76px;
+        &--item a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 34px;
+            color: #FFFFFF;
+        }
+    }
+    .nav__leni {
+        display: block;
+        .burger1 {
+            display: block;
+            width: 23px;
+            height: 1px;
+            border-radius: 2px;
+            background-color: #fff;
+            margin-bottom: 7px;
+        }
+        .burger2 {
+            display: block;
+            width: 23px;
+            height: 1px;
+            border-radius: 2px;
+            background-color: #fff;
+            margin-bottom: 7px;
+        }
+        .burger3 {
+            display: block;
+            width: 23px;
+            height: 1px;
+            border-radius: 2px;
+            background-color: #fff;
+        }
+    }
+}
