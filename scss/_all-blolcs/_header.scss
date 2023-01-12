@@ -7,7 +7,12 @@ nav {
     @include BG (url(../../imges/navigatsiyabgroung.png), no-repeat, 100%, center);
 }
 
+input {
+    display: none;
+}
+
 .nav {
+    padding: 19px 0;
     @include flexfunksiya (row, center, space-between, wrap);
     &__list {
         @include flexfunksiya (row, center, center, wrap);
@@ -19,6 +24,9 @@ nav {
             line-height: 34px;
             color: #FFFFFF;
         }
+    }
+    label {
+        display: none;
     }
     .nav__leni {
         display: block;
@@ -44,6 +52,59 @@ nav {
             height: 1px;
             border-radius: 2px;
             background-color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    header {
+        @include BG (url(../../imges/mabayl-begkround.png), no-repeat, 100%, center);
+    }
+    nav {
+        background: transparent;
+    }
+    .nav {
+        padding: 0;
+        @include flexfunksiya (row, center, space-between, wrap);
+        &__list {
+            @include flexfunksiya (column, center, center, wrap);
+            transform: translateX(150%);
+            gap: 24px;
+            &--item a {
+                font-size: 16px;
+            }
+            &__logo {
+                padding: 0;
+            }
+        }
+        label {
+            display: block;
+        }
+        .nav__leni {
+            display: block;
+            .burger1 {
+                display: block;
+                width: 23px;
+                height: 1px;
+                border-radius: 2px;
+                background-color: #fff;
+                margin-bottom: 7px;
+            }
+            .burger2 {
+                display: block;
+                width: 23px;
+                height: 1px;
+                border-radius: 2px;
+                background-color: #fff;
+                margin-bottom: 7px;
+            }
+            .burger3 {
+                display: block;
+                width: 23px;
+                height: 1px;
+                border-radius: 2px;
+                background-color: #fff;
+            }
         }
     }
 }

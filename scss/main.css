@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +15,10 @@
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
+}
+
+body {
+  font-family: "Roboto";
 }
 
 header {
@@ -27,7 +35,12 @@ nav {
   background-position: center;
 }
 
+input {
+  display: none;
+}
+
 .nav {
+  padding: 19px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -48,6 +61,9 @@ nav {
   font-size: 29px;
   line-height: 34px;
   color: #FFFFFF;
+}
+.nav label {
+  display: none;
 }
 .nav .nav__leni {
   display: block;
@@ -74,4 +90,68 @@ nav {
   height: 1px;
   border-radius: 2px;
   background-color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    background-image: url(../../imges/mabayl-begkround.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  nav {
+    background: transparent;
+  }
+  .nav {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform: translateX(150%);
+    gap: 24px;
+  }
+  .nav__list--item a {
+    font-size: 16px;
+  }
+  .nav__list__logo {
+    padding: 0;
+  }
+  .nav label {
+    display: block;
+  }
+  .nav .nav__leni {
+    display: block;
+  }
+  .nav .nav__leni .burger1 {
+    display: block;
+    width: 23px;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-bottom: 7px;
+  }
+  .nav .nav__leni .burger2 {
+    display: block;
+    width: 23px;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-bottom: 7px;
+  }
+  .nav .nav__leni .burger3 {
+    display: block;
+    width: 23px;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
 }/*# sourceMappingURL=main.css.map */
