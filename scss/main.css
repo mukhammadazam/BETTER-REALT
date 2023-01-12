@@ -98,9 +98,13 @@ input {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    position: relative;
+    top: -250px;
   }
   nav {
     background: transparent;
+    position: relative;
+    top: -50px;
   }
   .nav {
     padding: 0;
@@ -111,16 +115,59 @@ input {
     flex-wrap: wrap;
   }
   .nav__list {
+    position: relative;
+    top: 330px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    transform: translateX(150%);
+    transform: translateX(250%);
+    transition: 6s ease;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 20px;
     gap: 24px;
+    border: 10px solid #562000;
+    border-top: 20px solid #562000;
+    border-left: 9px solid #562000;
+    border-top-left-radius: 50px;
+    height: 100vh;
   }
   .nav__list--item a {
+    position: relative;
+    top: -250px;
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    width: 100%;
+    border: 2px solid #000000;
+    max-width: 130px;
+  }
+  .nav__list--item a:hover {
+    background-color: #EB9562;
+    border: #EB9562;
+  }
+  .nav__list .a {
+    border: 2px solid #562000;
+    border-radius: 8px;
+    padding: 5px 25px;
+  }
+  .nav__list .a1 {
+    border: 2px solid #562000;
+    border-radius: 8px;
+    padding: 5px 35px 5px 30px;
+  }
+  .nav__list .a2 {
+    border: 2px solid #562000;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+  }
+  .nav__list .a3 {
+    border: 2px solid #562000;
+    border-radius: 8px;
+    padding: 5px 33px 5px 26px;
   }
   .nav__list__logo {
     padding: 0;
@@ -153,5 +200,8 @@ input {
     height: 1px;
     border-radius: 2px;
     background-color: #fff;
+  }
+  input:checked ~ .nav .nav__list {
+    transform: translateX(60%);
   }
 }/*# sourceMappingURL=main.css.map */
