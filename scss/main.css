@@ -147,7 +147,7 @@ input {
   }
   .nav__list--item a:hover {
     background-color: #EB9562;
-    border: #EB9562;
+    border: 2px solid #EB9562;
   }
   .nav__list .a {
     border: 2px solid #562000;
