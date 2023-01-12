@@ -32,7 +32,8 @@ nav {
   background-image: url(../../imges/navigatsiyabgroung.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center;
+  background-position: start;
+  padding-top: 19px;
 }
 
 input {
@@ -92,6 +93,10 @@ input {
   background-color: #fff;
 }
 
+.itt {
+  display: none;
+}
+
 @media screen and (max-width: 576px) {
   header {
     background-image: url(../../imges/mabayl-begkround.png);
@@ -127,8 +132,7 @@ input {
     background: rgba(255, 255, 255, 0.9);
     padding: 30px 20px;
     gap: 24px;
-    border: 10px solid #562000;
-    border-top: 20px solid #562000;
+    border-top: 25px solid #562000;
     border-left: 9px solid #562000;
     border-top-left-radius: 50px;
     height: 100vh;
@@ -201,7 +205,49 @@ input {
     border-radius: 2px;
     background-color: #fff;
   }
+  .itt {
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    font-weight: 800;
+  }
   input:checked ~ .nav .nav__list {
     transform: translateX(60%);
   }
+}
+.hero__title {
+  padding-top: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 109px;
+  line-height: 127px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  border: none;
+}
+.hero__text {
+  max-width: 608px;
+  padding-top: 34px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+  padding-bottom: 62px;
+}
+.hero__btn {
+  background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 31px;
+  padding: 38px 86px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
