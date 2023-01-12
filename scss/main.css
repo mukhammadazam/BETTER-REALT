@@ -32,8 +32,7 @@ nav {
   background-image: url(../../imges/navigatsiyabgroung.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: start;
-  padding-top: 19px;
+  background-position: center;
 }
 
 input {
@@ -216,6 +215,14 @@ input {
     transform: translateX(60%);
   }
 }
+.n1hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
 .hero__title {
   padding-top: 32px;
   font-style: normal;
@@ -250,4 +257,13 @@ input {
   text-align: center;
   color: #FFFFFF;
   border: none;
+  margin-bottom: 135.6px;
+}
+
+.hero1__home {
+  display: block;
+}
+.hero1__strelka {
+  padding-left: 250px;
+  padding-top: 20px;
 }/*# sourceMappingURL=main.css.map */

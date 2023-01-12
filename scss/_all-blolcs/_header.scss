@@ -4,8 +4,7 @@ header {
 }
 
 nav {
-    @include BG (url(../../imges/navigatsiyabgroung.png), no-repeat, 100%, start);
-    padding-top: 19px;
+    @include BG (url(../../imges/navigatsiyabgroung.png), no-repeat, 100%, center);
 }
 
 input {
@@ -170,6 +169,10 @@ input {
     }
 }
 
+.n1hero {
+    @include flexfunksiya (row, center, space-between, nowrap);
+}
+
 .hero {
     &__title {
         padding-top: 32px;
@@ -205,5 +208,16 @@ input {
         text-align: center;
         color: #FFFFFF;
         border: none;
+        margin-bottom: 135.6px;
+    }
+}
+
+.hero1 {
+    &__home {
+        display: block;
+    }
+    &__strelka {
+        padding-left: 250px;
+        padding-top: 20px;
     }
 }
