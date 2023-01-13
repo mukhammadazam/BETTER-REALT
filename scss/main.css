@@ -437,47 +437,51 @@ nav {
     display: none;
   }
 }
+.hero-site__list {
+  position: absolute;
+  left: 0px;
+}
 .hero-site__list--item {
-  max-width: 720px;
   background-image: url(../../imges/devan.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  padding-top: 180px;
+  padding-top: 183px;
   padding-bottom: 32px;
   padding-left: 149px;
-  padding-right: 300px;
+  padding-right: 305px;
 }
 .hero-site__list--item1 {
-  max-width: 720px;
   background-image: url(../../imges/hona.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   padding-top: 180px;
-  padding-bottom: 32px;
+  padding-bottom: 29px;
   padding-left: 140px;
-  padding-right: 300px;
+  padding-right: 305px;
 }
-.hero-site__list--item2 {
-  max-width: 720px;
-  background-image: url(../../imges/devan.png);
+.hero-site__list1 {
+  position: absolute;
+  right: 0px;
+}
+.hero-site__list1--item2 {
+  background-image: url(../../imges/stolstul.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   padding-top: 180px;
   padding-bottom: 32px;
-  padding-left: 149px;
-  padding-right: 300px;
+  padding-left: 0px;
+  padding-right: 454px;
 }
-.hero-site__list--item3 {
-  max-width: 720px;
-  background-image: url(../../imges/hona.png);
+.hero-site__list1--item3 {
+  background-image: url(../../imges/televzr.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   padding-top: 180px;
   padding-bottom: 32px;
-  padding-left: 140px;
-  padding-right: 300px;
+  padding-left: 0px;
+  padding-right: 454px;
 }/*# sourceMappingURL=main.css.map */

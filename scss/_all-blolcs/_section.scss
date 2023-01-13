@@ -1,39 +1,39 @@
 @import '../../mixin.scss';
 .hero-site {
     &__list {
+        position: absolute;
+        left: 0px;
         &--item {
-            max-width: 720px;
             @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
-            padding-top: 180px;
+            padding-top: 183px;
             padding-bottom: 32px;
             padding-left: 149px;
-            padding-right: 300px;
+            padding-right: 305px;
         }
         &--item1 {
-            max-width: 720px;
             @include BG (url(../../imges/hona.png), no-repeat, 100%, center);
             padding-top: 180px;
-            padding-bottom: 32px;
+            padding-bottom: 29px;
             padding-left: 140px;
-            padding-right: 300px;
+            padding-right: 305px;
         }
     }
-    &__list {
+    &__list1 {
+        position: absolute;
+        right: 0px;
         &--item2 {
-            max-width: 720px;
-            @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
+            @include BG (url(../../imges/stolstul.png), no-repeat, 100%, center);
             padding-top: 180px;
             padding-bottom: 32px;
-            padding-left: 149px;
-            padding-right: 300px;
+            padding-left: 0px;
+            padding-right: 454px;
         }
         &--item3 {
-            max-width: 720px;
-            @include BG (url(../../imges/hona.png), no-repeat, 100%, center);
+            @include BG (url(../../imges/televzr.png), no-repeat, 100%, center);
             padding-top: 180px;
             padding-bottom: 32px;
-            padding-left: 140px;
-            padding-right: 300px;
+            padding-left: 0px;
+            padding-right: 454px;
         }
     }
 }
