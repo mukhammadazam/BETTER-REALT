@@ -340,7 +340,7 @@ nav {
     }
     .hero {
         position: absolute;
-        bottom: 310px;
+        bottom: 400px;
         left: 130px;
         &__title {
             padding-top: 0px;
@@ -352,8 +352,8 @@ nav {
         }
         &__btn {
             position: absolute;
-            bottom: -80px;
-            left: 80px;
+            bottom: -70px;
+            left: 0px;
             background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
             box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 31px;
@@ -380,105 +380,5 @@ nav {
     }
     .strel {
         display: none;
-    }
-    .form {
-        display: none;
-        transform: translatex(-120%);
-        position: absolute;
-        right: 200px;
-        top: 100px;
-        max-width: 1142px;
-        width: 100%;
-        @include flexfunksiya (row, center, space-between, nowrap);
-        border: 20px solid #562000;
-        background-color: #fff;
-        padding: 0 60px;
-        padding-top: 80px;
-        padding-bottom: 100px;
-        border-radius: 43.8464px;
-        &__left {
-            &--title {
-                max-width: 454px;
-                text-align: center;
-                padding-bottom: 32px;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 40px;
-                line-height: 49px;
-                text-align: center;
-                color: #000000;
-            }
-            &--text {
-                max-width: 390px;
-                text-align: center;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 26px;
-                line-height: 32px;
-                text-align: center;
-                color: #000000;
-            }
-        }
-        &__right {
-            padding-top: 60px;
-            label {
-                display: block;
-                padding-bottom: 10px;
-                outline: none;
-            }
-            &--label {
-                outline: none;
-                display: block;
-                padding: 14px 127.6px 14px 21px;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 22px;
-                color: #000000;
-            }
-            &--label1 {
-                outline: none;
-                display: block;
-                padding: 14px 130px 14px 19px;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 22px;
-                color: #000000;
-            }
-            &--label2 {
-                outline: none;
-                display: block;
-                padding: 14px 130px 14px 19px;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 22px;
-                color: #000000;
-            }
-            &--label3 {
-                outline: none;
-                display: block;
-                padding: 14px 130px 14px 19px;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 22px;
-                color: #000000;
-            }
-            &--btn {
-                font-style: normal;
-                font-weight: 700;
-                font-size: 15px;
-                line-height: 18px;
-                text-align: center;
-                color: #FFFFFF;
-                padding: 19px 53px;
-                background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
-                box-shadow: 3.98604px 3.98604px 3.98604px rgba(0, 0, 0, 0.25);
-                border-radius: 30.8918px;
-                border: none;
-            }
-        }
     }
 }
