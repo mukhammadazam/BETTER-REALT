@@ -69,7 +69,7 @@ nav {
     nav {
         background: transparent;
         position: relative;
-        top: -60px;
+        top: -30px;
     }
     .nav {
         padding: 0;
@@ -340,11 +340,11 @@ nav {
     }
     .hero {
         position: absolute;
-        bottom: 430px;
-        left: 110px;
+        bottom: 380px;
+        left: 100px;
         &__title {
             padding-top: 0px;
-            font-size: 26px;
+            font-size: 20px;
             line-height: 30px;
         }
         &__text {
@@ -352,8 +352,8 @@ nav {
         }
         &__btn {
             position: absolute;
-            bottom: 0px;
-            left: -50px;
+            bottom: -60px;
+            left: 30px;
             background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
             box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 31px;
