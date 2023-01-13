@@ -19,6 +19,7 @@
 
 body {
   font-family: "Roboto";
+  overflow-x: hidden;
 }
 
 header {
@@ -35,7 +36,7 @@ nav {
   background-position: center;
 }
 
-input {
+.inn {
   display: none;
 }
 
@@ -127,7 +128,7 @@ input {
     justify-content: center;
     flex-wrap: wrap;
     transform: translateX(250%);
-    transition: 6s ease;
+    transition: 2s ease;
     background: rgba(255, 255, 255, 0.9);
     padding: 30px 20px;
     gap: 24px;
@@ -211,8 +212,8 @@ input {
     right: 20px;
     font-weight: 800;
   }
-  input:checked ~ .nav .nav__list {
-    transform: translateX(60%);
+  .inn:checked ~ .nav .nav__list {
+    transform: translateX(70%);
   }
 }
 .n1hero {
@@ -266,4 +267,273 @@ input {
 .hero1__strelka {
   padding-left: 250px;
   padding-top: 20px;
+}
+
+.strel {
+  display: none;
+}
+
+.form {
+  transform: translatex(-120%);
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  max-width: 1142px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border: 20px solid #562000;
+  background-color: #fff;
+  padding: 0 60px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  border-radius: 43.8464px;
+}
+.form__left--title {
+  max-width: 454px;
+  text-align: center;
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  color: #000000;
+}
+.form__left--text {
+  max-width: 390px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+.form__right {
+  padding-top: 60px;
+}
+.form__right label {
+  display: block;
+  padding-bottom: 10px;
+  outline: none;
+}
+.form__right--label {
+  outline: none;
+  display: block;
+  padding: 14px 127.6px 14px 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.form__right--label1 {
+  outline: none;
+  display: block;
+  padding: 14px 130px 14px 19px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.form__right--label2 {
+  outline: none;
+  display: block;
+  padding: 14px 130px 14px 19px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.form__right--label3 {
+  outline: none;
+  display: block;
+  padding: 14px 130px 14px 19px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.form__right--btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 19px 53px;
+  background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
+  box-shadow: 3.98604px 3.98604px 3.98604px rgba(0, 0, 0, 0.25);
+  border-radius: 30.8918px;
+  border: none;
+}
+
+.open {
+  display: none;
+}
+
+.open:checked ~ .hero1 .form {
+  transform: translatex(2%);
+}
+
+@media screen and (max-width: 576px) {
+  .n1hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .hero {
+    position: absolute;
+    bottom: 310px;
+    left: 130px;
+  }
+  .hero__title {
+    padding-top: 0px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .hero__text {
+    display: none;
+  }
+  .hero__btn {
+    position: absolute;
+    bottom: -80px;
+    left: 80px;
+    background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    padding: 18px 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 11px;
+  }
+  .hero1 {
+    display: none;
+  }
+  .hero1__home {
+    display: block;
+  }
+  .hero1__strelka {
+    padding-left: 250px;
+    padding-top: 20px;
+  }
+  .strel {
+    display: none;
+  }
+  .form {
+    display: none;
+    transform: translatex(-120%);
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    max-width: 1142px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border: 20px solid #562000;
+    background-color: #fff;
+    padding: 0 60px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    border-radius: 43.8464px;
+  }
+  .form__left--title {
+    max-width: 454px;
+    text-align: center;
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+  }
+  .form__left--text {
+    max-width: 390px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+  }
+  .form__right {
+    padding-top: 60px;
+  }
+  .form__right label {
+    display: block;
+    padding-bottom: 10px;
+    outline: none;
+  }
+  .form__right--label {
+    outline: none;
+    display: block;
+    padding: 14px 127.6px 14px 21px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .form__right--label1 {
+    outline: none;
+    display: block;
+    padding: 14px 130px 14px 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .form__right--label2 {
+    outline: none;
+    display: block;
+    padding: 14px 130px 14px 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .form__right--label3 {
+    outline: none;
+    display: block;
+    padding: 14px 130px 14px 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .form__right--btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 19px 53px;
+    background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
+    box-shadow: 3.98604px 3.98604px 3.98604px rgba(0, 0, 0, 0.25);
+    border-radius: 30.8918px;
+    border: none;
+  }
 }/*# sourceMappingURL=main.css.map */

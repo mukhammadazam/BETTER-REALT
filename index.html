@@ -13,7 +13,7 @@
     <header>
         <nav>
             <div class="container">
-                <input type="checkbox" id="bur">
+                <input type="checkbox" id="bur" class="inn">
                 <div class="nav">
                     <img src="./imges/logo.svg" alt="logo" class="nav__logo">
                     <ul class="nav__list">
@@ -52,12 +52,33 @@
                     <p class="hero__text">Шукайте квартиру? Тоді вам точно до нас! Підберемо, допоможемо та поселимо.</p>
                     <button class="hero__btn">Вибрати квартиру</button>
                 </div>
+                <input type="checkbox" id="srt" class="open">
                 <div class="hero1">
-                    <img src="./imges/uyy.png" alt="uy" class="hero1__home">
-                    <label for="bur" class="label">
-                        <img src="./imges/strelka.png" alt="strelka" class="hero1__strelka">
+                    <img src="./imges/uyy.png" alt="uy" class="hero1__home ">
+                    <label for="srt" class="label">
+                        <img src="./imges/strelka.png" alt="strelka" class="hero1__strelka ">
                     </label>
-
+                    <form action="https://echo.htmlacademy.ru/" method="post" class="form">
+                        <div class="form__left">
+                            <h5 class="form__left--title">Отримайте детальну консультацію</h5>
+                            <div class="form__left--text">Заповніть анкету, щоб отримати детальну відповідь на ваші запитання та попередню вартість.</div>
+                        </div>
+                        <div class="form__right">
+                            <label>
+                             <input  class="form__right--label" type="text" placeholder="Ваше ім'я" name="name" required>
+                            </label>
+                            <label>
+                                <input  class="form__right--label1" type="text" placeholder="Бажана площа Вашої квартири" name="home" required>
+                               </label>
+                            <label>
+                                <input  class="form__right--label2" type="text" placeholder="Однокімнатна або двокімнатна квартира" name="home" required>
+                               </label>
+                            <label>
+                                <input  class="form__right--label3" type="tel" placeholder="Номер телефону" name="tel" required>
+                               </label>
+                            <button class="form__right--btn" type="submit">Відправити</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
