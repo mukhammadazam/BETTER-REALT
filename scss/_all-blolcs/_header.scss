@@ -87,6 +87,7 @@ nav {
             border-left: 9px solid #562000;
             border-top-left-radius: 50px;
             height: 100vh;
+            z-index: 111111111111111;
             &--item a {
                 position: relative;
                 top: -250px;
@@ -165,7 +166,7 @@ nav {
         font-weight: 800;
     }
     .inn:checked~.nav .nav__list {
-        transform: translateX(70%);
+        transform: translateX(27%);
     }
 }
 
