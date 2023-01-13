@@ -64,12 +64,12 @@ nav {
     header {
         @include BG (url(../../imges/mabayl-begkround.png), no-repeat, 100%, center);
         position: relative;
-        top: -250px;
+        top: -300px;
     }
     nav {
         background: transparent;
         position: relative;
-        top: -50px;
+        top: -60px;
     }
     .nav {
         padding: 0;
@@ -340,8 +340,8 @@ nav {
     }
     .hero {
         position: absolute;
-        bottom: 400px;
-        left: 130px;
+        bottom: 430px;
+        left: 110px;
         &__title {
             padding-top: 0px;
             font-size: 26px;
@@ -352,8 +352,8 @@ nav {
         }
         &__btn {
             position: absolute;
-            bottom: -70px;
-            left: 0px;
+            bottom: 0px;
+            left: -50px;
             background: linear-gradient(90deg, #EB9562 0%, #E0CFA7 148.54%);
             box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 31px;
