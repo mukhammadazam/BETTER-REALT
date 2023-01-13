@@ -438,19 +438,46 @@ nav {
   }
 }
 .hero-site__list--item {
+  max-width: 720px;
   background-image: url(../../imges/devan.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  padding-top: 183px;
+  padding-top: 180px;
   padding-bottom: 32px;
   padding-left: 149px;
   padding-right: 300px;
 }
 .hero-site__list--item1 {
+  max-width: 720px;
   background-image: url(../../imges/hona.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  padding: 183px 449px 0 31px;
+  padding-top: 180px;
+  padding-bottom: 32px;
+  padding-left: 140px;
+  padding-right: 300px;
+}
+.hero-site__list--item2 {
+  max-width: 720px;
+  background-image: url(../../imges/devan.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding-top: 180px;
+  padding-bottom: 32px;
+  padding-left: 149px;
+  padding-right: 300px;
+}
+.hero-site__list--item3 {
+  max-width: 720px;
+  background-image: url(../../imges/hona.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding-top: 180px;
+  padding-bottom: 32px;
+  padding-left: 140px;
+  padding-right: 300px;
 }/*# sourceMappingURL=main.css.map */

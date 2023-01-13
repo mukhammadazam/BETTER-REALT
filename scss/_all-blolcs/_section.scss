@@ -2,15 +2,38 @@
 .hero-site {
     &__list {
         &--item {
+            max-width: 720px;
             @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
-            padding-top: 183px;
+            padding-top: 180px;
             padding-bottom: 32px;
             padding-left: 149px;
             padding-right: 300px;
         }
         &--item1 {
+            max-width: 720px;
             @include BG (url(../../imges/hona.png), no-repeat, 100%, center);
-            padding: 183px 449px 0 31px;
+            padding-top: 180px;
+            padding-bottom: 32px;
+            padding-left: 140px;
+            padding-right: 300px;
+        }
+    }
+    &__list {
+        &--item2 {
+            max-width: 720px;
+            @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
+            padding-top: 180px;
+            padding-bottom: 32px;
+            padding-left: 149px;
+            padding-right: 300px;
+        }
+        &--item3 {
+            max-width: 720px;
+            @include BG (url(../../imges/hona.png), no-repeat, 100%, center);
+            padding-top: 180px;
+            padding-bottom: 32px;
+            padding-left: 140px;
+            padding-right: 300px;
         }
     }
 }
