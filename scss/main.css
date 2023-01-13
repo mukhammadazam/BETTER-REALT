@@ -436,4 +436,16 @@ nav {
   .strel {
     display: none;
   }
+}
+.hero-site__list--item {
+  background-image: url(../../imges/devan.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.hero-site__list--item1 {
+  background-image: url(../../imges/devan.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */

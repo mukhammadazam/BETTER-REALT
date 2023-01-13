@@ -1,0 +1,11 @@
+@import '../../mixin.scss';
+.hero-site {
+    &__list {
+        &--item {
+            @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
+        }
+        &--item1 {
+            @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
+        }
+    }
+}
