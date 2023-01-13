@@ -3,9 +3,14 @@
     &__list {
         &--item {
             @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
+            padding-top: 183px;
+            padding-bottom: 32px;
+            padding-left: 149px;
+            padding-right: 300px;
         }
         &--item1 {
-            @include BG (url(../../imges/devan.png), no-repeat, 100%, center);
+            @include BG (url(../../imges/hona.png), no-repeat, 100%, center);
+            padding: 183px 449px 0 31px;
         }
     }
 }

@@ -442,10 +442,15 @@ nav {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  padding-top: 183px;
+  padding-bottom: 32px;
+  padding-left: 149px;
+  padding-right: 300px;
 }
 .hero-site__list--item1 {
-  background-image: url(../../imges/devan.png);
+  background-image: url(../../imges/hona.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  padding: 183px 449px 0 31px;
 }/*# sourceMappingURL=main.css.map */
