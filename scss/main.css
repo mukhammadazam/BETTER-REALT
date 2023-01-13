@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Regular.ttf);
@@ -99,7 +100,6 @@ nav {
 
 @media screen and (max-width: 576px) {
   header {
-    overflow-x: hidden;
     background-image: url(../../imges/mabayl-begkround.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -438,6 +438,7 @@ nav {
   }
 }
 .hero-site__list {
+  padding-bottom: 88px;
   position: absolute;
   left: 0px;
 }
@@ -484,4 +485,55 @@ nav {
   padding-bottom: 32px;
   padding-left: 0px;
   padding-right: 454px;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-site__list {
+    position: relative;
+    top: -520px;
+  }
+  .hero-site__list--item {
+    background-image: url(../../imges/Картинкаtelevezor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 179px;
+  }
+  .hero-site__list--item1 {
+    background-image: url(../../imges/Картинкаtelevezor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 29px;
+    padding-left: 140px;
+    padding-right: 305px;
+  }
+  .hero-site__list1 {
+    position: relative;
+    top: 0;
+  }
+  .hero-site__list1--item2 {
+    background-image: url(../../imges/Картинкаtelevezor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 79px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 179px;
+  }
+  .hero-site__list1--item3 {
+    background-image: url(../../imges/Картинкаtelevezor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 84px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 144px;
+  }
 }/*# sourceMappingURL=main.css.map */

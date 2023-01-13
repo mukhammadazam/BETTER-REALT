@@ -1,6 +1,7 @@
 @import '../../mixin.scss';
 .hero-site {
     &__list {
+        padding-bottom: 88px;
         position: absolute;
         left: 0px;
         &--item {
@@ -34,6 +35,47 @@
             padding-bottom: 32px;
             padding-left: 0px;
             padding-right: 454px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero-site {
+        &__list {
+            position: relative;
+            top: -520px;
+            &--item {
+                @include BG (url(../../imges/Картинкаtelevezor.png), no-repeat, 100%, center);
+                padding-top: 80px;
+                padding-bottom: 12px;
+                padding-left: 20px;
+                padding-right: 179px;
+            }
+            &--item1 {
+                @include BG (url(../../imges/Картинкаtelevezor.png), no-repeat, 100%, center);
+                padding-top: 180px;
+                padding-bottom: 29px;
+                padding-left: 140px;
+                padding-right: 305px;
+            }
+        }
+        &__list1 {
+            position: relative;
+            top: 0;
+            &--item2 {
+                @include BG (url(../../imges/Картинкаtelevezor.png), no-repeat, 100%, center);
+                padding-top: 79px;
+                padding-bottom: 14px;
+                padding-left: 20px;
+                padding-right: 179px;
+            }
+            &--item3 {
+                @include BG (url(../../imges/Картинкаtelevezor.png), no-repeat, 100%, center);
+                padding-top: 84px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 144px;
+            }
         }
     }
 }

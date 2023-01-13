@@ -62,7 +62,6 @@ nav {
 
 @media screen and (max-width:576px) {
     header {
-        overflow-x: hidden;
         @include BG (url(../../imges/mabayl-begkround.png), no-repeat, 100%, center);
         position: relative;
         top: -300px;
