@@ -99,6 +99,7 @@ nav {
 
 @media screen and (max-width: 576px) {
   header {
+    overflow-x: hidden;
     background-image: url(../../imges/mabayl-begkround.png);
     background-repeat: no-repeat;
     background-size: 100%;
